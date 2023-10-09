@@ -1833,6 +1833,39 @@ input, select, textarea {
 			text-align: center;
 			border: 0;
 		}
+		.icons li a {
+			font-size: 35px; 
+		}
+
+		#dev-icons {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		.icon-list {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		.icon-item {
+			flex: 0 0 5.33%;
+			text-align: center;
+			margin-bottom: 20px;
+			padding: 6px;
+		}
+		
+		.icon-item i {
+			font-size: 7em;
+			margin-bottom: 10px;
+		}
+		
+		.icon-item span {
+			display: block;
+		}
+		.icon-item p {
+			white-space: nowrap;
+			font-size: large;
+		}
 
 /* Form */
 

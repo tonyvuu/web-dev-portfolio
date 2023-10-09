@@ -1,195 +1,328 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title>Tony Vu Dev Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<div id="header">
+<head>
+	<title>Tony Vu Dev Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-				<div class="top">
+</head>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/image.png" alt="" /></span>
-							<h1 id="title">Tony Vu</h1>
-							<p>Software Engineer</p>
-						</div>
+<body class="is-preload">
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+	<!-- Header -->
+	<div id="header">
 
+		<div class="top">
+
+			<!-- Logo -->
+			<div id="logo">
+				<span class="image avatar48"><img src="images/image.png" alt="" /></span>
+				<h1 id="title">Tony Vu</h1>
+				<p>Software Engineer</p>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+					<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
+					</li>
+					<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+					<li><a href="#dev-icons" id="skills-link"><span class="icon solid fa-envelope">Development
+								Skills</span></a></li>
+					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="bottom">
+
+			<!-- Social Icons -->
+			<ul class="icons">
+				<li><a href="https://github.com/tonyvuu" target="_blank" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="https://www.linkedin.com/in/tony-vuu/" target="_blank"
+						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="mailto:tony.vuu18@gmail.com" target="_blank" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
+				<li><a href="./images/TV_Software_Resume.pdf" target="_blank" class="icon solid fa-file"><span
+							class="label">Resume</span></a></li>
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- Intro -->
+		<section id="top" class="one dark cover">
+			<div class="container">
+
+				<header>
+					<h2 class="alt">Hi! I'm <strong>Tony</strong>, a Software Engineer<br />
+						</a></h2>
+					<p>I love being able to create software that makes life easier by solving problems one at a
+						time.<br />
+						Check out my portfolio below!</p>
+				</header>
+
+				<footer>
+					<a href="#about" class="button scrolly">Get to Know Me!</a>
+				</footer>
+
+			</div>
+		</section>
+
+		<!-- Portfolio -->
+		<section id="portfolio" class="two">
+			<div class="container">
+
+				<header>
+					<h2>Portfolio</h2>
+				</header>
+
+				<p>The thrill of being able to create projects and bringing any idea to life is the reason why I love
+					doing this. Here are some current and finish projects. Don't worry! I will continue to add more.
+					&#x1F604
+				</p>
+
+				<div class="row">
+					<div class="col-4 col-12-mobile">
+						<article class="item">
+							<a href="https://spoti-mix.vercel.app/" target="_blank" class="image fit"><img
+									src="images/SpotiMix.png" alt="" /></a>
+							<header>
+								<h3>SpotiMix</h3>
+								<p>A React web application created with the goal for users to search any tracks, albums,
+									or top 10 tracks of an artist. I also implemented feature such as dark & light theme
+									mode with some more upcoming feature. It will also have upcoming features such as a
+									payment method with included technologies used like bootstrap and API. (working
+									progress).</p>
+							</header>
+						</article>
+						<article class="item">
+							<a href="https://stop-red-watch.vercel.app/" target="_blank" class="image fit"><img
+									src="images/StopWatchRed.png" alt="" /></a>
+							<header>
+								<h3>Red Stop Watch</h3>
+								<p>A simple stopwatch application built using React.js. The stopwatch allows users to
+									start, stop, and reset the timer. It also displays the elapsed time in hours,
+									minutes, seconds, and milliseconds.</p>
+							</header>
+						</article>
+					</div>
+					<div class="col-4 col-12-mobile">
+						<article class="item">
+							<a href="https://movie-react-nu.vercel.app/" target="_blank" class="image fit"><img
+									src="images/Movie.tv.png" alt="" /></a>
+							<header>
+								<h3>Movie.tv</h3>
+								<p>A React.js web application that allows users to fetch comprehensive information about
+									any movie using a movie API. In addition to basic movie data like title, poster, and
+									release date, this application fetches extended details such as runtime, plot,
+									director, and more using the same API key with a different endpoint.</p>
+							</header>
+						</article>
+						<article class="item">
+							<a href="https://studybuddy-q4jw.onrender.com/login" target="_blank" class="image fit"><img
+									src="images/StudyBuddy.png" alt="" /></a>
+							<header>
+								<h3>Studdy Buddy</h3>
+								<p>A full-stack web application created with the goal for users to study their
+									flashcards in a distraction-free environment. Flip between questions and answers to
+									test their knowledge. I also implemented a mini Jeopardy-style game mode with
+									categories and point values. Users can select questions from different categories
+									and earn points.</p>
+							</header>
+						</article>
+					</div>
+					<div class="col-4 col-12-mobile">
+						<article class="item">
+							<a href="https://to-do-list-blond-two.vercel.app/" target="_blank" class="image fit"><img
+									src="images/TaskQuest.png" alt="" /></a>
+							<header>
+								<h3>TaskQuest</h3>
+								<p>This is a To-Do List application built using React, a popular JavaScript library for
+									building user interfaces. The app allows users to create, edit, delete, and mark
+									tasks as done.</p>
+							</header>
+						</article>
+
+					</div>
 				</div>
 
-				<div class="bottom">
+			</div>
+		</section>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://github.com/tonyvuu" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/tony-vuu/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:tony.vuu18@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							<!-- <li><a href="mailto:tony.vuu18@gmail.com" target="_blank" class="fa fa-address-book"><span class="label">Resume</span></a></li> -->
-						</ul>
+		<!-- About Me -->
+		<section id="about" class="three">
+			<div class="container">
 
+				<header>
+					<h2>About Me</h2>
+				</header>
+
+				<a class="image featured"><img src="images/image.png" alt="" /></a>
+
+				<p>Hi, my name is Tony, and I am a highly ambitious, self-motivated, and tenacious software engineer
+					based in Atlanta, GA. After graduating from Georgia State University in 2022 with a BS in finance, I
+					started to realize that I pursued it only because it was a comfortable, safe choice. I had tested
+					out different majors, but I always ended up going back to finance. Around the time of the pandemic,
+					I began immersing myself in technology. Before I knew it, I was spending hours, then weeks, on
+					anything related to technology. I never had the opportunity to try software development because I
+					felt like I had spent too long in college and should just go straight into the workforce. However, I
+					was luckily introduced to a web development bootcamp held in Atlanta, and I immediately sent in my
+					application and was accepted. I am currently in the third month of the program, which is sponsored
+					by the City of Refuge and partnered with DigitalCrafts to train emerging technologists, including
+					myself, to break into tech. What I have learned from this program is that my true passion lies in
+					coding. Being able to bring your ideas to life and demonstrate them is fascinating. I always look
+					forward to creating and solving problems with the abilities I've learned, and I will continue to
+					improve in every way I can. One thing for sure about this field is that I love the constant
+					challenge and continuous learning.
+
+					Outside of programming, I have a wide range of hobbies and passions that keep me busy. I grew up
+					playing sports so I am a huge sportsfan (my favorite athlete is Lebron James, yes I know -- basic
+					but he's the GOAT). My favorite sports are basketball and volleyball. I love all kind of food so I
+					eat almost anything you put in front of me (unfortunately). I am very open-minded and be willing to
+					try anything outside of my comfort zone.
+				</p>
+
+			</div>
+		</section>
+		<!--------------------------DEV SKILLS ICON-->
+		<section id="dev-icons" class="five">
+			<div class="container">
+				<header>
+					<h2>Development Icons</h2>
+				</header>
+				<div class="icon-list">
+					<div class="icon-item">
+						<i class="devicon-javascript-plain colored"></i>
+						<p>Javascript</p>
+					</div>
+					<div class="icon-item">
+						<i class="devicon-html5-plain colored"></i>
+						<p>HTML</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-visualstudio-plain colored"></i>
+						<p>Visual Studio Code</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-sequelize-plain colored"></i>
+						<p>Sequelize</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-bootstrap-plain colored"></i>
+						<p>Bootstrap</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-css3-plain-wordmark colored"></i>
+						<p>CSS</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-git-plain colored"></i>
+						<p>Git</p>
+
+					</div>
+					<div class="icon-item">
+
+						<i class="devicon-nodejs-plain colored"></i>
+						<p>Node.js</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-postgresql-plain colored"></i>
+						<p>ElephantSQL</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-express-original colored"></i>
+						<p>Express</p>
+
+					</div>
+					<div class="icon-item">
+						<i class="devicon-sqlite-plain colored"></i>
+						<p>SQLite</p>
+					</div>
+					<div class="icon-item">
+						<i class="devicon-github-original colored"></i>
+						<p>GitHub</p>
+					</div>
+					<div class="icon-item">
+						<i class="devicon-jira-plain colored"></i>
+						<p>Jira</p>
+					</div>
+					<div class="icon-item">
+						<i class="devicon-npm-original-wordmark colored"></i>
+						<p>NPM</p>
+					</div>
+					<!-- Add more icons and labels as needed -->
 				</div>
+			</div>
+		</section>
+
+
+		<!-- Contact -->
+		<section id="contact" class="four">
+			<div class="container">
+
+				<header>
+					<h2>Contact</h2>
+				</header>
+
+
+				<form method="post" action="#">
+					<div class="row">
+						<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+						<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+						<div class="col-12">
+							<textarea name="message" placeholder="Message"></textarea>
+						</div>
+						<div class="col-12">
+							<input type="submit" value="Send Message" />
+						</div>
+					</div>
+				</form>
 
 			</div>
+		</section>
 
-		<!-- Main -->
-			<div id="main">
+	</div>
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+	<!-- Footer -->
+	<div id="footer">
 
-							<header>
-								<h2 class="alt">Hi! I'm <strong>Tony</strong>, a <a>Software</a> Engineer<br />
-								</a></h2>
-								<p>I love being able to create software that makes life easier by solving problems one at a time.<br />
-								Check out my portfolio below!</p>
-							</header>
+		<!-- Copyright -->
+		<ul class="copyright">
+			<li>&copy; 2023 Tony Vu</li>
+			<li></li>
+		</ul>
 
-							<footer>
-								<a href="#about" class="button scrolly">Get to Know Me!</a>
-							</footer>
+	</div>
 
-						</div>
-					</section>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
+</body>
 
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>The thrill of being able to create projects and bringing any idea to life is the reason why I love doing this. Here are some current and finish projects. Don't worry! I will continue to add more. &#x1F604
-							</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://spoti-mix.vercel.app/" target="_blank"  class="image fit"><img src="images/SpotiMix.png" alt="" /></a>
-										<header>
-											<h3>SpotiMix</h3>
-											<p>A React web application created with the goal for users to search any tracks, albums, or top 10 tracks of an artist. I also implemented feature such as dark & light theme mode with some more upcoming feature. It will also have upcoming features such as a payment method with included technologies used like bootstrap and API. (working progress).</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://stop-red-watch.vercel.app/" target="_blank" class="image fit"><img src="images/StopWatchRed.png" alt="" /></a>
-										<header>
-											<h3>Red Stop Watch</h3>
-											<p>A simple stopwatch application built using React.js. The stopwatch allows users to start, stop, and reset the timer. It also displays the elapsed time in hours, minutes, seconds, and milliseconds.</p>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://movie-react-nu.vercel.app/"  target="_blank" class="image fit"><img src="images/Movie.tv.png" alt="" /></a>
-										<header>
-											<h3>Movie.tv</h3>
-											<p>A React.js web application that allows users to fetch comprehensive information about any movie using a movie API. In addition to basic movie data like title, poster, and release date, this application fetches extended details such as runtime, plot, director, and more using the same API key with a different endpoint.</p>
-										</header>
-									</article>
-									<article class="item">
-										<a href="https://studybuddy-q4jw.onrender.com/login" target="_blank"  class="image fit"><img src="images/StudyBuddy.png" alt="" /></a>
-										<header>
-											<h3>Studdy Buddy</h3>
-											<p>A full-stack web application created with the goal for users to study their flashcards in a distraction-free environment. Flip between questions and answers to test their knowledge. I also implemented a mini Jeopardy-style game mode with categories and point values. Users can select questions from different categories and earn points.</p>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="https://to-do-list-blond-two.vercel.app/" target="_blank" class="image fit"><img src="images/TaskQuest.png" alt="" /></a>
-										<header>
-											<h3>TaskQuest</h3>
-											<p>This is a To-Do List application built using React, a popular JavaScript library for building user interfaces. The app allows users to create, edit, delete, and mark tasks as done.</p>
-										</header>
-									</article>
-									
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a class="image featured"><img src="images/image.png" alt="" /></a>
-
-							<p>Hi, my name is Tony, and I am a highly ambitious, self-motivated, and tenacious software engineer based in Atlanta, GA. After graduating from Georgia State University in 2022 with a BS in finance, I started to realize that I pursued it only because it was a comfortable, safe choice. I had tested out different majors, but I always ended up going back to finance. Around the time of the pandemic, I began immersing myself in technology. Before I knew it, I was spending hours, then weeks, on anything related to technology. I never had the opportunity to try software development because I felt like I had spent too long in college and should just go straight into the workforce. However, I was luckily introduced to a web development bootcamp held in Atlanta, and I immediately sent in my application and was accepted. I am currently in the third month of the program, which is sponsored by the City of Refuge and partnered with DigitalCrafts to train emerging technologists, including myself, to break into tech. What I have learned from this program is that my true passion lies in coding. Being able to bring your ideas to life and demonstrate them is fascinating. I always look forward to creating and solving problems with the abilities I've learned, and I will continue to improve in every way I can. One thing for sure about this field is that I love the constant challenge and continuous learning.
-
-							Outside of programming, I have a wide range of hobbies and passions that keep me busy. I grew up playing sports so I am a huge sportsfan (my favorite athlete is Lebron James, yes I know -- basic but he's the GOAT). My favorite sports are basketball and volleyball. I love all kind of food so I eat almost anything you put in front of me (unfortunately). I am very open-minded and be willing to try anything outside of my comfort zone. 
-							</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; 2023 Tony Vu</li><li></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
