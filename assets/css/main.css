@@ -1850,12 +1850,12 @@ input, select, textarea {
 		.icon-item {
 			flex: 0 0 5.33%;
 			text-align: center;
-			margin-bottom: 20px;
-			padding: 6px;
+			margin-bottom: 10px;
+			padding: 38px;
 		}
 		
 		.icon-item i {
-			font-size: 7em;
+			font-size: 6.5em;
 			margin-bottom: 10px;
 		}
 		
