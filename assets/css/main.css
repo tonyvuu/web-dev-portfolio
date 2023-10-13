@@ -1772,8 +1772,8 @@ input, select, textarea {
 
 		.image.featured {
 			/* display: block; */
-			height: 40%;
-			width: 40%;
+			height: 30%;
+			width: 35%;
 			margin: 0 0 2em 0;
 		}
 
@@ -1834,7 +1834,7 @@ input, select, textarea {
 			border: 0;
 		}
 		.icons li a {
-			font-size: 35px; 
+			font-size: 27px; 
 		}
 
 		#dev-icons {
@@ -2665,3 +2665,8 @@ input, select, textarea {
 				}
 
 	}
+
+.headshot-class img{
+	width: 10px;
+	height: auto;
+}
